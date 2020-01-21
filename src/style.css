@@ -1,0 +1,140 @@
+body{
+    background: url(background.png) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /* SAFARI / CHROME */
+    -moz-background-size: cover; /* FIREFOX */
+    -ms-background-size: cover; /* IE */
+    -o-background-size: cover; /* OPERA */
+}
+.imagePokeflix{
+    margin-left: 0px;
+    width: 345px;
+    height: 150px;
+}
+.select-order{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+ }
+.select-order-name{
+    margin: 10px;
+    height: auto;
+    display: grid;
+}
+.select-type{
+    margin: 10px;
+    height: auto;
+    display: grid;
+}
+.input-search{
+    margin: 10px;
+    height: auto;
+    display: grid;
+}
+/*cards item*/
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    border: 3px solid rgb(73, 121, 8);
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fdfeff63;
+}
+.conteudoCard{
+    padding: 2px;
+    text-align: left;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+#ordenar{
+    margin-left: 3%;
+}
+#porcentagem{
+    margin-top: 6%;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    body{
+        background: url(background.png) no-repeat center fixed;
+        background-size: cover;
+        -webkit-background-size: cover; /* SAFARI / CHROME */
+        -moz-background-size: cover; /* FIREFOX */
+        -ms-background-size: cover; /* IE */
+        -o-background-size: cover; /* OPERA */
+    }
+    .imagePokeflix{
+        margin-left: 0px;
+        width: 340px;
+        height: 150px;
+    }
+    .select-order{
+        display: grid;
+        justify-content: initial; 
+     }
+    .select-order-name{
+        margin: 10px;
+        height: auto;
+    }
+    .select-type{
+        margin: 10px;
+        height: auto;
+    }
+    .input-search{
+        margin: 10px;
+        height: auto;
+    }
+    .container{
+        margin-top: 30px;
+    }
+    .box{
+        width: 60%;
+    }
+} 
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+    body{
+        background: url(background.png) no-repeat center fixed;
+        background-size: cover;
+        -webkit-background-size: cover; /* SAFARI / CHROME */
+        -moz-background-size: cover; /* FIREFOX */
+        -ms-background-size: cover; /* IE */
+        -o-background-size: cover; /* OPERA */
+    }
+    .imagePokeflix{
+        margin-left: 90px;    
+        height: 150px;  
+        }
+        .select-order{
+            display: inline-grid;
+            margin-top: 5%;
+         }
+        .container{
+            margin-top: 30px;
+            flex: 1;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            display: flex;
+        }
+        .box{
+            width: 20%;
+        }
+        } 
+    
