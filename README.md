@@ -76,4 +76,4 @@ Para desenvolver essa aplicação, utilizamos as seguintes ferramentas:
 
 ## 7. Link Pokémon!
 
-https://gabrielaserodio.github.io/SAP003-data-lovers/src/index.html
+https://tayaracaires.github.io/SAP003-data-lovers/src/index.html
